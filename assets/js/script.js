@@ -48,7 +48,7 @@ function questionFunction () {
         const solution = currentQuestion.choices[i];
         const choice = document.createElement("button");
         choice.setAttribute("class", "btns");
-        choice.textContent = i + 1 + currentQuestion.choices[i];
+        choice.textContent = currentQuestion.choices[i];
         choice.addEventListener("click", () => {
             chooseSolution(solution);
         })
