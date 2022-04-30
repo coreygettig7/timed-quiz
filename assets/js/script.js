@@ -91,6 +91,7 @@ function gameOver() {
     questionEl.textContent = "The quiz is over, check out your score!";
     choiceEl.textContent = "You scored " + [timeRemain] + " points!";
     timerEl.textContent = "";
+    solutionEl.textContent = "";
 }
 
 onload(beginQuiz());
